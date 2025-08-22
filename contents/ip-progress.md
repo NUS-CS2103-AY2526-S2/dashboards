@@ -19,9 +19,9 @@ title: "iP progress dashboard"
   * <span class="badge bg-secondary">!~~ABC~~</span> : optional item due soon, not done yet.
 * If you have queries about the data shown in this page, please email `{{ module | lower }}@comp.nus.edu.sg`.
 * This dashboard is **updated {{ "every 2-3 days" if tic4002 else "daily" }}**.
-* **Troubleshooting:**
 
-<panel type="seamless" header="Why is an increment related to a _tag_ not green?">
+<panel type="seamless">
+<div slot="header"><md><span class="badge rounded-pill bg-danger">Troubleshooting</span> Why is an increment related to a _tag_ not green?</md></div>
 
 Try these steps, and wait till the next dashboard update to see if they turn green as expected.
 
@@ -42,7 +42,9 @@ Try these steps, and wait till the next dashboard update to see if they turn gre
      Remedy: Push the commit to the fork, and confirm the warning does not appear anymore.
 
 </panel>
-<panel type="seamless" header="Why is an increment related to a _branch_ not green?">
+<panel type="seamless">
+<div slot="header"><md><span class="badge rounded-pill bg-danger">Troubleshooting</span> Why is an increment related to a _branch_ not green?</md></div>
+
 
 1. Go to `https://github.com/YOUR_USER_NAME/ip/branches/active`. It should look like this:<br>
    <pic src="images/active-branches.png"/><br>
