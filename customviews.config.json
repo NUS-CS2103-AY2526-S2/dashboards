@@ -1,0 +1,10 @@
+{
+  "config": {
+  },
+  "storageKey": "cs21_3-dashboards",
+  "baseUrl": "/dashboards",
+  "settings": {
+    "enabled": true
+  },
+  "showUrl": false
+}
