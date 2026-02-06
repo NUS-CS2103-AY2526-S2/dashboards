@@ -4,7 +4,7 @@
   "storageKey": "cs21_3-dashboards",
   "baseUrl": "/dashboards",
   "settings": {
-    "enabled": true
+    "enabled": false
   },
   "showUrl": false
 }
